@@ -34,11 +34,19 @@ h1 {
    font-size: 2.5em;
 }
 
+h2, h3, h4, h5 {
+   font-family: "Domine", serif;
+}
+
+h1 i, h2 i, h3 i, h4 i, h5 i {
+   font-family: "Domine", serif;
+}
+
 h1.smaller {
    font-size: 2em;
 }
 
-h1 a {
+h1 a, h2 a, h3 a, h4 a, h5 a {
    font-family: "Domine", serif;
 }
 
@@ -113,4 +121,9 @@ header .right a:hover {
 .description {
    font-size: 0.9em;
    color: var(--color-desc);
+}
+
+/* ul styling */
+ul {
+   margin-left: 20px;
 }
