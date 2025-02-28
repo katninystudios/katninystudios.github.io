@@ -10,7 +10,7 @@
 }
 
 :root {
-   --background: #050013;
+   --background: #04010c;
    --color: #dedede;
    --a-color: #7948ff;
    --color-desc: #a0a0a0;
@@ -80,7 +80,7 @@ header .right a {
    color: var(--color);
 }
 
-header .right a:hover {
+header right a:hover {
    color: var(--a-color);
 }
 
@@ -143,4 +143,21 @@ button {
 
 button:hover {
    background: var(--button-fill);
+}
+
+/* call to action */
+.cta {
+   text-align: center;
+}
+
+.cta button {
+   margin-top: 10px;
+}
+
+/* gradient */
+.gradient {
+   background: linear-gradient(90deg, #5252ff, purple);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
